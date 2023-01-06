@@ -55,12 +55,15 @@ namespace Loteria
         {
             Random ale = new Random();
             Console.WriteLine("//--------------------Mega-Sena--------------------//");
-            int[] numero = new int[10]; 
+            int[] numero = new int[6];
+            int[] semDupli=new int[6];
             for (int i = 0; i < 6; i++)
             {
                 numero[i]=ale.Next(1,60);
-                Console.Write(numero[i] + " ");
+                semDupli = numero.Distinct().ToArray();
+                //Console.Write(numero[i] + " ");
             }
+            foreach (int item in semDupli) Console.Write(" {0} ",item);
             Console.ReadLine();
         }
         static void Quina()
