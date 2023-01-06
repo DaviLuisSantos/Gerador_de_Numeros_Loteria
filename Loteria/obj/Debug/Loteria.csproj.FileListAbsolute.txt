@@ -1,0 +1,8 @@
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\bin\Debug\Loteria.exe.config
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\bin\Debug\Loteria.exe
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\bin\Debug\Loteria.pdb
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\obj\Debug\Loteria.csproj.AssemblyReference.cache
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\obj\Debug\Loteria.csproj.SuggestedBindingRedirects.cache
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\obj\Debug\Loteria.csproj.CoreCompileInputs.cache
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\obj\Debug\Loteria.exe
+D:\Davizaun\Cursos\C#_exercicios\Loteria\Loteria\obj\Debug\Loteria.pdb
