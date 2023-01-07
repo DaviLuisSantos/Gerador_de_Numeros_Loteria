@@ -61,40 +61,51 @@ namespace Loteria
             {
                 numero[i]=ale.Next(1,60);
                 semDupli = numero.Distinct().ToArray();
-                //Console.Write(numero[i] + " ");
             }
             foreach (int item in semDupli) Console.Write(" {0} ",item);
-            Console.ReadLine();
+            Console.ReadKey();
         }
         static void Quina()
         {
             Random ale = new Random();
             Console.WriteLine("//--------------------Quina--------------------//");
-            for (int i = 1; i <= 5; i++)
+            int[] numero = new int[5];
+            int[] semDupli = new int[5];
+            for (int i = 0; i < 5; i++)
             {
-                Console.Write(ale.Next(1, 80) + " ");
+                numero[i] = ale.Next(1, 80);
+                semDupli=numero.Distinct().ToArray();
             }
-            Console.ReadLine();
+            foreach(int item in semDupli) Console.Write(" {0} ", item);
+            Console.ReadKey();
         }
         static void Lotofacil()
         {
             Random ale = new Random();
             Console.WriteLine("//--------------------LotoFacil--------------------//");
-            for (int i= 1; i <= 15; i++)
+            int[] numero = new int[15];
+            int[] semDupli = new int[15];
+            for (int i= 0; i < 15; i++)
             {
-                Console.Write(ale.Next(1, 25) + " ");
+                numero[i] = ale.Next(1, 25);
+                semDupli = numero.Distinct().ToArray();
             }
-            Console.ReadLine();
+            foreach(int item in semDupli) Console.Write(" {0} ", item);
+            Console.ReadKey();
         }
         static void Lotomania()
         {
             Random ale = new Random();
             Console.WriteLine("//--------------------LotoMania--------------------//");
-            for (int j = 1; j <= 15; j++)
+            int[] numero=new int[15];
+            int[] semDupli = new int[15];
+            for (int i = 0; i < 15; i++)
             {
-                Console.Write(ale.Next(1, 100) + " ");
+                numero[i] = ale.Next(1, 100);
+                semDupli = numero.Distinct().ToArray();
             }
-            Console.ReadLine();
+            foreach (int item in semDupli) Console.Write(" {0} ", item);
+            Console.ReadKey();
             
         }
     }
