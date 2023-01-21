@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Loterias\JogosAnteriores.cs" />
+    <Compile Include="Loterias\LotoFacil.cs" />
+    <Compile Include="Loterias\LotoMania.cs" />
+    <Compile Include="Loterias\MegaSena.cs" />
+    <Compile Include="Loterias\Quina.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
